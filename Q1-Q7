@@ -1,0 +1,42 @@
+Q.1 Whats React and its pros and cons?
+ReactJS is the highly used open-source JavaScript Library. It helps in creating impressive web apps that require minimal effort and coding. The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps.
+pros:
+Easy to Learn and Use
+Creating Dynamic Web Applications Becomes Easier
+Reusable Components
+Performance Enhancement
+The Support of Handy Tools
+Known to be SEO Friendly
+
+cons:
+The high pace of development
+Poor Documentation
+JSX as a barrier
+
+Q.2 What do you understand by Virtual Dom?
+React uses Virtual DOM exists which is like a lightweight copy of the actual DOM(a virtual representation of the DOM). So for every object that exists in the original DOM, there is an object for that in React Virtual DOM. It is exactly the same, but it does not have the power to directly change the layout of the document. Manipulating DOM is slow, but manipulating Virtual DOM is fast as nothing gets drawn on the screen. So each time there is a change in the state of our application, the virtual DOM gets updated first instead of the real DOM.
+
+Q.3 Difference between Virtual Dom vs Real Dom
+virtual DOM(VDOM) is the virtual representation of Real DOM React update the state changes in Virtual DOM first and then it syncs with Real DOM Virtual DOM is just like a blueprint of a machine, can do changes in the blueprint but those changes will not directly apply to the machine.
+
+Q.4 Whats component? Types of component
+A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components. Components make the task of building UIs much easier. You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI.
+types:
+Functional Components
+Class Components
+Rendering Components
+
+Q.5 Difference between class & function based component
+Functional Components: Functional components are some of the more common components that will come across while working in React. These are simply JavaScript functions. We can create a functional component to React by writing a JavaScript function.
+
+Class Component: This is the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application).
+
+Q.6 Explain react component life cycle
+1.initialization: This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
+2.Mounting: Mounting is the stage of rendering the JSX returned by the render method itself.
+3.Updating: Updating is the stage when the state of a component is updated and the application is repainted.
+4.Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page.
+
+Q.7 Explain Prop Drilling in React & Ways to avoid it
+Prop drilling: Prop drilling is basically a situation when the same data is being sent at almost every level due to requirements in the final level.
+We can avoid it by using useContext hook.
