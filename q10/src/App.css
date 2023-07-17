@@ -1,0 +1,47 @@
+.heading {
+  text-align: center;
+  background-color: #101010;
+  height: 60px;
+  color: whitesmoke;
+  margin-top: -0px;
+}
+body {
+  background-color: #b5cad15e;
+}
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cart-adjust {
+  height: 410px;
+  width: 400px;
+  background-color: #101010;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 15px;
+  margin-left: 70px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.price {
+  color: bisque;
+  font-size: 1rem;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border: none;
+}
