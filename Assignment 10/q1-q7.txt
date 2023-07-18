@@ -1,0 +1,26 @@
+Q.1 What are hooks in react? how to identify hooks?
+    Hooks allow function components to have access to state and other React features. Because of this, we can avoid class components.
+    Hooks can only be called inside React function components.
+    Hooks can only be called at the top level of a component.
+    Hooks cannot be conditional
+
+Q.2 Explain useState Hook & what can you achieve with it?
+    The useState() is a Hook that allows you to have state variables in functional components . so basically useState is the ability to encapsulate local state in a functional component.
+    ex: 
+    const[value,setValue] = useState("")
+    in the above code the value is setted we can update the value by using setValue and inside the useState brackets we can set the initial value. 
+
+Q.3 How to pass data from one component to another component
+   We can pass the data from one component to another by importing the component with the directory where it was presented and we have to render and the component it is to be declared and written the first letter in capital.
+
+Q.4 What is the significance of the "key" prop in React lists, and why is it important to use it correctly?
+  The key prop is a unique identifier that React uses to efficiently manage and update elements within a list. When rendering a list of elements, it is crucial to assign a unique key to each element to help React differentiate between the items and perform updates more efficiently. Without a unique key, React may not correctly update the elements in the list, resulting in performance issues or even unexpected behavior in your application.
+
+Q.5 What is the significance of using "setState" instead of modifying state directly in React?
+  Mutating state directly can lead to odd bugs, and components that are hard to optimize. by using setstate we can avoid some of bugs that are encountering.
+
+Q.6 Explain the concept of React fragments and when you should use them.
+  Fragments are syntax that allow us to add multiple elements to a React component without wrapping them in an extra DOM node.
+  we should use it when the multiple div elements are presented to showcase clean DOM tree.
+Q.7 How do you handle conditional rendering in React?
+   When UI is designed using React, we come across a situation when components are to be rendered on the screen based upon some condition. For eg, In a University Information System, when a teacher logins, then different components are rendered whereas when student logins, different components are rendered.

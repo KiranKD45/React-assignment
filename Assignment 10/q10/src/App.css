@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  background-color: #0762a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: black;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+input {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.positive {
+  width: 100px;
+  color: whitesmoke;
+  background-color: #ee9815;
+}
+.equal {
+  width: 210px;
+  color: whitesmoke;
+  background-color: #ee9815;
+}
+.multiply,
+.divide,
+.minus {
+  width: 100px;
+  color: whitesmoke;
+  background-color: #ee9815;
+}
+
+.nums1 input {
+  width: 100px;
+}
+.nums2 input {
+  width: 320px;
+}
+.display-input {
+  width: 210px;
+  padding-left: 10px;
+}
+.clear {
+  width: 100px;
+}
